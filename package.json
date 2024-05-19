@@ -1,0 +1,33 @@
+{
+  "name": "bird-is-the-word",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "vue": "^3.4.5",
+    "vue-meta": "^2.2.1",
+    "vue-router": "^4.2.5",
+    "vuex": "^4.1.0",
+    "@lottiefiles/vue-lottie-player": "1.0.4"
+  },
+  "devDependencies": {
+    "@vue/babel-preset-app": "^5.0.8",
+    "@vue/cli-plugin-babel": "^5.0.4",
+    "@vue/cli-service": "^5.0.8",
+    "vue-template-compiler": "^2.6.7"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
